@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+*.env
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+
+# Markdown artifacts
+*.md.bak
