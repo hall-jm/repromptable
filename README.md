@@ -10,6 +10,10 @@ This project aims at helping prompt engineers, content creators, and researchers
 * Test compatibility across LLM environments
 * Share a common language around quality and clarity
 
+⚠️ **Disclaimer** ⚠️
+
+This repository and its contents are not intended or validated for use in benchmarking or model evaluation. It focuses on prompt design, structural clarity, and human-guided refinement workflows—not quantitative model comparison.
+
 ## 📜 License
 
 Prompts & Prompt Documentation are covered by the Creative Commons Attribution-NonCommercial 4.0 International License
