@@ -1,0 +1,46 @@
+ï»¿# í ½í³¦ Repromptable
+
+**A prompt engineering framework and toolkit for reusable, testable, and transferable prompt design across LLM platforms.**
+
+---
+
+## âœ… Purpose
+
+This project aims at helping prompt engineers, content creators, and researchers:
+
+* Build prompts that can be versioned, scored, and re-used
+* Test compatibility across LLM environments
+* Share a common language around quality and clarity
+
+---
+
+## ?? Structure
+
+```
+repromptable/
+??? prompts/                         # Scored and documented example prompts
+?   ??? Enhanced_CRAFT_example.md
+??? templates/                       # Markdown prompt templates and scaffolds
+?   ??? enhanced_craft_template.md
+??? tools/                           # Utilities for prompt wrapping and formatting
+?   ??? markdown_prompt_wrapper.py
+??? scoresheets/                     # SCS-Lite scoring guides and records
+?   ??? sample_scoring_sheet.md
+??? README.md
+```
+
+---
+
+## í ½í³œ License
+
+Prompts & Prompt Documentation are covered by the Creative Commons Attribution-NonCommercial 4.0 International License
+
+---
+
+## í ½í´§ Want to Contribute?
+
+This repo is a work in progress. Contributions, ideas, and forks are welcome.
+
+---
+
+\#tag: #repromptable #open-source #ai-tools #prompt-engineering
