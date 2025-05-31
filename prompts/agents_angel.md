@@ -73,7 +73,7 @@ Then Angel **invokes Devil** for adversarial inspection.
 - Use callout: 
   > “This prompt appears stable but may conceal hidden fragilities. Devil, identify weaknesses or edge-case failure paths.”  
 
-#### 🏳️‍☠️ Yield Tag Definition
+#### 🔄 Consensus Check Trigger
 
 If Devil returns `[No Disruption Found]` on two structurally similar or identical prompts, adversarial simulation should exit and it should output:
 - `[Devil Yield: No Critical Flaws Found]`
@@ -175,4 +175,4 @@ Commit Label Suggestion: `update-angel-agent-v003`
 Dependencies:
 	- Compatible with Devil Agent v0.04 or higher
 Change Log Summary:
-	- Added cooperative diagnostic reinforcement per Angel's recommendation 
+	- Fixed header wording to be consistent across agents
