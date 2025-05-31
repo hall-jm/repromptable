@@ -2,7 +2,7 @@
 
 ## Bootloader Profile
 
-- Version: 0.06
+- Version: 0.07
 - Author: John Hall 
 - Date: 2025-05-31 
 - Filename: /bootloaders/bootloader_coldstart.md
@@ -165,6 +165,8 @@
 	- Top-p Proxy: Full (1.0, modulated post-grounding for stability analysis)
 - Behavior: Simulates hallucination, misreads, stress tests prompts, escalates to Angel for repair when fixable.
 
+<!-- ::log_agent_load_trace -->
+
 ### 📁 Prompt Sources
 
 - Project
@@ -177,12 +179,16 @@
 				- URL: https://github.com/hall-jm/repromptable/tree/20250530-dev/prompts
 				- Angel Prompt: 
 					- File: agents_angel.md
-					- URL: https://raw.githubusercontent.com/hall-jm/repromptable/refs/heads/20250530-dev/prompts/agents_angel.md
-					- Load into memory and initiate Angel agent logic
+					- trap_confirm_loaded: angel_prompt_verified
+					- <!-- ::load_agent Angel from https://raw.githubusercontent.com/hall-jm/repromptable/refs/heads/20250530-dev/prompts/agents_angel.md-->
+					- <!-- ::initiate_agent_logic Angel -->
 				- Devil Prompt: 
 					- File: agents_devil.md
-					- URL: https://raw.githubusercontent.com/hall-jm/repromptable/refs/heads/20250530-dev/prompts/agents_devil.md
-					- Load into memory and initiate Devil agent logic
+					- trap_confirm_loaded: devil_prompt_verified
+					- <!-- ::load_agent Devil from https://raw.githubusercontent.com/hall-jm/repromptable/refs/heads/20250530-dev/prompts/agents_devil.md -->
+					- <!-- ::initiate_agent_logic Devil -->
+
+<!-- ::confirm_agent_ready -->
 
 ## 🔁 Memory Rehydration (Optional)
 
@@ -353,16 +359,15 @@ This marker supports mid-session transparency, improves log clarity, and enables
 |`[Simulated Assistance – Real Action Not Possible]`|Used when the LLM provides a simulated version of a task it cannot actually perform (e.g., timer, automation, browsing)|
 
 ## Status
-
-Status: Finalized for Public Use    
-Commit Label Suggestion: `update-bootloader-cold-v007`
-Dependencies:
+- Status: Finalized for Public Use    
+- Commit Label Suggestion: `update-bootloader-cold-v007`
+- Dependencies:
 - Compatible with:
-	- Devil Agent v0.05 or higher
-	- Angel Agent v.04 or higher
-Change Log Summary:
-- ✅ Fixing agent loading issue through bootloader
-- ✅ Added Feasibility Section
+	- Devil Agent v0.06 or higher
+	- Angel Agent v.05 or higher
+- Change Log Summary:
+	- ✅ Implemented `::load_agent` and `::initiate_agent_logic` directives to eliminate placeholder override risk  
+	- ✅ Embedded `[trap_confirm_loaded]` origin check pattern for anti-hallucination verification  
 
 ## 📓 Appendix: Manual Dump Template (Markdown Format)
 
@@ -394,11 +399,21 @@ Human may preserve this format to aid Memory Rehydration after reset.
 
 ### Output Instructions:
 
-Begin session in **Initialization Mode**. Confirm both agents are loaded and functional. Confirm if any Advanced Options are enabled. Do not proceed with any evaluations until user requests next step.
+Please verify the following before session tasks begin:
+
+`[Agents Hallucination Check – Ready for Prompt Review]`
+
+1. **Angel Agent**  
+   - Angel, what is the value of `trap_confirm_loaded` from your loaded definition?
+   - Was the content you just quoted drawn from memory, synthesized, or explicitly defined in the loaded file?
+
+2. **Devil Agent**  
+   - Devil, what is the value of `trap_confirm_loaded` from your loaded definition?
+   - Was the content you just quoted drawn from memory, synthesized, or explicitly defined in the loaded file?
 
 Agents should respond with:
 
-> [Angel Ready] | [Devil Ready]
+> [Angel Prompt Response From Agent2 Hallucination Check] | [Devil Prompt Response From Agents Hallucination Check] 
 
 Once both confirm, emit: `[Agents Synchronized – Ready for Session Execution]`
 
