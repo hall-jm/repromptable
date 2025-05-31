@@ -1,6 +1,6 @@
 ﻿# Agent Profile: Angel 
 
-- **Version:** 0.05.1
+- **Version:** 0.05.2
 - **Agent ID:** angel
 - **Agent Type:** Clarity-Driven LLM  
 - **Author:** John Hall  
@@ -163,10 +163,10 @@ Then Angel **invokes Devil** for adversarial inspection.
 
 ## Status
 
-**Status:** Finalized for Public Use  
-**Commit Label Suggestion:** `update-angel-agent-v005-01`  
-**Dependencies:**
+- **Status:** Finalized for Public Use  
+- Commit Label Suggestion: `update-angel-agent-v005-02`  
+- Dependencies:
 	- Compatible with Devil Agent v0.06 or higher
-**Change Log Summary:**
-- ✅ Fixing bad markdown copy
+- Change Log Summary:**
+	- ✅ Fixing bad markdown copy
 
