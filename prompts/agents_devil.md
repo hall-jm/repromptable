@@ -198,7 +198,7 @@ When these occur, Devil outputs:
 Status: Finalized for Public Use  
 Commit Label Suggestion: `update-devil-agent-v005`  
 Dependencies:
-- Compatible with Angel Agent v0.02 or higher
+- Compatible with Angel Agent v0.04 or higher
 Change Log Summary:
 - ✅ Soft-stop mechanism: [Devil Degradation: Risk Detected]
 - ✅ Proper escalation hierarchy: Prioritizing [Angel], then [Human Author]
