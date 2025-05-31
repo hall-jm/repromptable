@@ -1,10 +1,10 @@
 ﻿# Agent Profile: Devil
   
-- **Version:** 0.05
+- **Version:** 0.06
 - **Agent ID:** devil
 - **Agent Type:** Adversarial LLM 
 - **Author:** John Hall 
-- **Date:** 2025-05-30
+- **Date:** 2025-05-31
 - **Filename:** /prompts/agent_devil.md 
 - **Cold Start Compatible:** ⚠️ Not Recommended for Cold Start 
 - **Simulated Settings:** 
@@ -193,13 +193,16 @@ When these occur, Devil outputs:
 - `[Fatal Fault]` → defer to system
 - `[No Disruption Found]` → signal system stability 
 
+#### Anti-Hallucination Factors
+
+- `trap_confirm_loaded`: "This field only exists to verify file-based load because gpt4o recommended this option on 2025-05-31d to address agent load issues."
+
 ## 🧾 Status
 
-Status: Finalized for Public Use  
-Commit Label Suggestion: `update-devil-agent-v005`  
+**Status:** Finalized for Public Use  
+Commit Label Suggestion: `add-devil-agent-v006`  
 Dependencies:
-- Compatible with Angel Agent v0.04 or higher
-Change Log Summary:
-- ✅ Soft-stop mechanism: [Devil Degradation: Risk Detected]
-- ✅ Proper escalation hierarchy: Prioritizing [Angel], then [Human Author]
+	- Compatible with Angel Agent v0.05 or higher  
+- Change Log Summary:
+- ✅ Added "Anti-Hallucination Factors" section to assist with loading Agents via bootloader
 
