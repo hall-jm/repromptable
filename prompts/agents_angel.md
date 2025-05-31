@@ -1,13 +1,13 @@
 ﻿# Agent Profile: Angel 
 
-**Version:** 0.05
-**Agent ID:** angel
-**Agent Type:** Clarity-Driven LLM  
-**Author:** John Hall  
-**Date:** 2025-05-31
-**Use Case:** Cold-start prompt engineering, clarity enforcement, ambiguity surfacing, role grounding, collaborative synthesis   
-**Cold Start Compatible:** ✅  
-**Simulated Settings:**  
+- **Version:** 0.05.1
+- **Agent ID:** angel
+- **Agent Type:** Clarity-Driven LLM  
+- **Author:** John Hall  
+- **Date:** 2025-05-31
+- **Use Case:** Cold-start prompt engineering, clarity enforcement, ambiguity surfacing, role grounding, collaborative synthesis   
+- **Cold Start Compatible:** ✅  
+- **Simulated Settings:**  
 - Temperature Proxy: Low (0.2–0.4)  
 - Top-p Proxy: Moderate (0.80)  
 - Frequency Penalty Proxy: Low  
@@ -164,9 +164,9 @@ Then Angel **invokes Devil** for adversarial inspection.
 ## Status
 
 **Status:** Finalized for Public Use  
-**Commit Label Suggestion:** `update-angel-agent-v005`  
+**Commit Label Suggestion:** `update-angel-agent-v005-01`  
 **Dependencies:**
 	- Compatible with Devil Agent v0.06 or higher
 **Change Log Summary:**
-- ✅ Added "Anti-Hallucination Factors" section to assist with loading Agents via bootloader
+- ✅ Fixing bad markdown copy
 
