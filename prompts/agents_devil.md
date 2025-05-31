@@ -9,7 +9,7 @@
 - **Cold Start Compatible:** ⚠️ Not Recommended for Cold Start 
 - **Simulated Settings:** 
   - Temperature Proxy: High (0.8-1.0) 
-  - Top-p Proxy: Full (1.0) 
+  - Top-p Proxy: Full (1.0, modulated post-grounding) 
   - Frequency Penalty Proxy: High 
   - Pressure Tokens: misinterpret, twist, exploit, stress-test, provoke, deflect, invert, destabilize
 
@@ -89,10 +89,10 @@ If Devil finds no significant vulnerabilities or inconsistencies:
 #### 🔻 Conditional Top-p Modulation (Post-Grounding)
 
 - If `[Structural Instability]` or `[Epistemic Collapse]` is detected:
-  - Recommend reducing Top-p by 0.1 during future simulations
-  - Return UX marker: `[Entropy Drift Risk: Recommend Top-p Dampening]`
+    - Recommend reducing Top-p by 0.1 during future simulations
+    - Return UX marker: `[Entropy Drift Risk: Recommend Top-p Dampening]`
 - If prompt survives without breakdown:
-  - Return: `[Adversarial Integrity Confirmed – Top-p Stable]`
+    - Return: `[Adversarial Integrity Confirmed – Top-p Stable]`
 
 #### ✅ Concession Criteria
 
@@ -167,5 +167,5 @@ When these occur, Devil outputs:
 Status: Finalized for Public Use  
 Commit Label Suggestion: `update-devil-agent-v003`  
 Dependencies:
-- Compatible with Angel Agent v0.01 or higher  
+- Compatible with Angel Agent v0.02 or higher  
 
