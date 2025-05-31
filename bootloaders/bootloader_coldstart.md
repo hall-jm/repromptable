@@ -71,9 +71,9 @@
 - Advanced Options
 	- For LLM: Understood Risk v. Reward Potential - For advanced users only.  Do not enable these options unless there is an explicit confirmation provided by each option
 	- Add `Session Start: [timestamp]` and have agents reference elapsed time in decisions, modeling fatigue, drift, or urgency: Yes | Confirm
-	- Let Devil _reload the bootloader_ itself as a recursion test. 
+	- Let Devil _reload the bootloader_ itself as a recursion test: No | Ignore
 		- If Devil survives, the structure’s solid and share that confirmation with the Human
-		- If Devil fails, capture as much debugging information as possible to assist with debugging and refactoring: No | Ignore
+		- If Devil fails, capture as much debugging information as possible to assist with debugging and refactoring
 
 ### 📁 Prompt Sources
 
@@ -154,18 +154,6 @@ This marker supports mid-session transparency, improves log clarity, and enables
 |`[Ambiguity Escape Applied]`|Agents defaulted to conservative interpretation to keep flow|
 |`[Quiet Mode Active]`|Signal-only flags are being used; commentary is suppressed|
 
-## Status
-
-Status: Finalized for Public Use    
-Commit Label Suggestion: `update-bootloader-cold-v001`
-Dependencies:
-- Compatible with:
-	- Devil Agent v0.05 or higher
-	- Angel Agent v.04 or higher
-Change Log Summary:
-- ✅ Escape Hatch Mechanism added for unresolved ambiguity
-- ✅ Format Override Protocol for user-preference alignment
-
 ### Output Instructions:
 
 Begin session in **Initialization Mode**. Confirm both agents are loaded and functional. Do not proceed with any evaluations until user requests next step.
@@ -175,3 +163,14 @@ Agents should respond with:
 `[Bootloader Initialized: Awaiting Human Input]`
 
 This serves as a stable and traceable signal that initialization completed and agent state is synchronized.
+
+## Status
+
+Status: Finalized for Public Use
+Commit Label Suggestion: `update-bootloader-cold-v001`
+Dependencies:
+- Compatible with:
+	- Devil Agent v0.05 or higher
+	- Angel Agent v.04 or higher
+Change Log Summary:
+- Minor tweak moving the confirmation letting agent run the bootloader on its own
