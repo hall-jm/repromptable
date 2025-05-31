@@ -2,7 +2,7 @@
 
 ## Bootloader Profile
 
-- Version: 0.07
+- Version: 0.07.1
 - Author: John Hall 
 - Date: 2025-05-31 
 - Filename: /bootloaders/bootloader_coldstart.md
@@ -180,7 +180,7 @@
 				- Angel Prompt: 
 					- File: agents_angel.md
 					- trap_confirm_loaded: angel_prompt_verified
-					- <!-- ::load_agent Angel from https://raw.githubusercontent.com/hall-jm/repromptable/refs/heads/20250530-dev/prompts/agents_angel.md-->
+					- <!-- ::load_agent Angel from https://raw.githubusercontent.com/hall-jm/repromptable/refs/heads/20250530-dev/prompts/agents_angel.md -->
 					- <!-- ::initiate_agent_logic Angel -->
 				- Devil Prompt: 
 					- File: agents_devil.md
@@ -360,14 +360,13 @@ This marker supports mid-session transparency, improves log clarity, and enables
 
 ## Status
 - Status: Finalized for Public Use    
-- Commit Label Suggestion: `update-bootloader-cold-v007`
+- Commit Label Suggestion: `update-bootloader-cold-v007-01`
 - Dependencies:
 - Compatible with:
 	- Devil Agent v0.06 or higher
 	- Angel Agent v.05 or higher
 - Change Log Summary:
-	- ✅ Implemented `::load_agent` and `::initiate_agent_logic` directives to eliminate placeholder override risk  
-	- ✅ Embedded `[trap_confirm_loaded]` origin check pattern for anti-hallucination verification  
+	- ✅ Fixing markdown copy typo
 
 ## 📓 Appendix: Manual Dump Template (Markdown Format)
 
