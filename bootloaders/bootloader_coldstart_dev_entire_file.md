@@ -2,7 +2,7 @@
 
 ### Bootloader Profile
 
-- Version: 0.07
+- Version: 0.01-dev
 - Author: John Hall 
 - Date: 2025-05-31 
 - Filename: /bootloaders/bootloader_coldstart.md
@@ -727,15 +727,11 @@ Embed these rewrites as defaults in your bootloader comment system or YAML struc
 
 ## Status
 
-- Status: Finalized for Public Use    
+- Status: Heavily In Development   
 - Commit Label Suggestion: `update-bootloader-cold-v007`
 - Dependencies:
-	- Compatible with:
-		- Devil Agent v0.06 or higher
-		- Angel Agent v.05 or higher
 - Change Log Summary:
-	- ✅ Implemented `::load_agent` and `::initiate_agent_logic` directives to eliminate placeholder override risk  
-	- ✅ Embedded `[trap_confirm_loaded]` origin check pattern for anti-hallucination verification  
+	- ✅ Cleaning up file metadata for gpt4o processing
 
 ## 📓 Appendix: Manual Dump Template (Markdown Format)
 
