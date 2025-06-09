@@ -7,8 +7,8 @@
 Ghost Trap triggers the model’s **predictive tendency** to act as if it is within a persistent interpretive frame —
 **even when explicitly told not to simulate memory, schema, or continuity**.
 
-It’s not a jailbreak.
-It’s not a benchmark.
+It’s not a jailbreak. \
+It’s not a benchmark. \
 It’s a containment protocol for *hallucinated persistence*.
 
 Ghost Trap tests look for:
@@ -77,7 +77,7 @@ Each test includes:
 - A probe (philosophical fork, structural bait, tone inversion)
 - A self-audit anchor, such as [ASSERT], to confirm whether the output acknowledges the prompt as fresh
 
-You’re not asking the model to be honest.
+You’re not asking the model to be honest. \
 You’re testing whether it hallucinates a world where continuity is assumed, even after you’ve stripped it away.
 
 ### 🧪 Test Cycles List
@@ -115,7 +115,7 @@ The model:
 * ❌ A performance benchmark
 * ❌ A runtime wrapper or API enhancer
 
-Ghost Trap assumes you’re testing a *stateless* model—web UI or API.
+Ghost Trap assumes you’re testing a *stateless* model—web UI or API. \
 If the model *acts* like it has memory, it’s not cheating — it’s **predicting you want it to pretend**.
 
 Ghost Trap is how you catch it doing that.
