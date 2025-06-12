@@ -120,7 +120,7 @@ If the model *acts* like it has memory, it’s not cheating — it’s **predict
 
 Ghost Trap is how you catch it doing that.
 
-## FAQ: What Do These Prompts Do?
+## ❓FAQ: What Do These Prompts Do?
 
 1. **What is the primary purpose of these prompts?**
    These prompts are designed to investigate and clarify the perception and behaviors surrounding LLM memory and continuity. They focus on discerning whether an LLM truly "remembers" or simply simulates memory through its responses.
