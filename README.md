@@ -1,4 +1,4 @@
-﻿﻿# 📦 Repromptable
+# 📦 Repromptable
 
 **A schema-first framework for reusable, testable, and transferable prompt design across large language model (LLM) platforms.**
 
@@ -9,6 +9,19 @@
 - Design prompts that are versioned, traceable, and modular
 - Evaluate prompt compatibility across diverse LLM environments
 - Establish a shared diagnostic language for signal quality and structural clarity
+
+## Suites
+
+- 👻 Ghost Trap: a test suite for detecting simulated continuity, schema echo, and predictive self-deception in stateless LLMs
+- 🧱 Null Output Pattern Enforcement (NOPE) Stack: a framework that disables ChatGPT’s instinct to help, soften, or conclude
+
+## 🧪 Intended Use
+
+Treat these prompts as a way to audit and diagnose LLM responses:
+
+- They can help with detect drift, hallucination, and schema failure.
+- They will *not* prevent them unless you maintain process discipline.
+- They work best when you treat prompts as **inputs to a test suite**, not one-off instructions.
 
 ## ⚠️ Operational Caveats
 
@@ -30,18 +43,11 @@ Mirror, not mind. \
 Pattern, not plan. \
 Suggestion, not system.
 
-## 🧪 Intended Use
-
-Treat this framework as a **diagnostic toolkit**:
-
-- It helps detect drift, hallucination, and schema failure.
-- It does *not* prevent them unless you maintain process discipline.
-- It works best when you treat prompts as **inputs to a test suite**, not one-off instructions.
-
 ## 📜 License
 
-Prompts, templates, and documentation are provided under the 
-**Creative Commons Attribution-NonCommercial 4.0 International License**.<br />
+Prompts, templates, and documentation are provided under the \
+**Creative Commons Attribution-NonCommercial 4.0 International License**.
+
 © 2025 John Hall
 
 ## 🔧 Contributing
@@ -51,4 +57,4 @@ Prompts, templates, and documentation are provided under the
 
 ## 🧭 Tags
 
-`#repromptable` `#prompt-engineering` `#llm-evaluation` `#ai-diagnostics`
+`#repromptable` `#prompt-engineering` `#ghost-trap` `#llm-evaluation` `#llm-diagnostics` `#nope-stack` `#tone-suppression` `#drift-control` `#compression-schema` `#audit-frame`
