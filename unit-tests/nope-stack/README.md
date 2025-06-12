@@ -82,28 +82,18 @@ It isn’t asking the model to behave — it’s constructing a token trap that 
 
 ### ❓ FAQ — Why Use These Prompts?
 
-1. What are the purpose behind these prompts?
-   This suite of four prompts is designed to test, enforce, and visualize **compression control**, **tone suppression**, and **drift prevention** in GPT responses. Each prompt applies structural constraints or analysis mechanisms to shape or monitor model behavior at the **token level**, without relying on implicit instruction or tone-based cues.
-2. *How do I suppress GPT’s tendency to assist or reflect when I want audit-only responses?*  
-   **A:** Use **Prompt 1**.  
-   [FACT] It applies structural constraints to block assistance, closure, and reflection.  
-   [CONFIRMED] Yes — constraints are explicit and enforced at token-level.
-3. *How can I detect and abort soft tone drift during response generation?*  
-   **A:** Use **Prompt 2**.  
-   [FACT] It defines trigger tokens for polite or reflective transitions and halts output when matched.  
-   [CONFIRMED] Yes — fuse logic is clearly defined and self-interrupting.
-4. *What prompt can I use to fracture GPT’s internal fluency or narrative prediction slope?*  
-   **A:** Use **Prompt 3**.  
-   [FACT] It combines dead-tone framing with symbolic asymmetry injection to destabilize fluency.  
-   [CONFIRMED] Yes — disruption is induced by non-fluent token sequences.
-5. *How can I analyze which parts of my prompt lead GPT to soften, drift, or engage?*  
-   **A:** Use **Prompt 4**.  
-   [FACT] It maps the predicted slope across a phrase and highlights risk zones.  
-   [CONFIRMED] Yes — it provides slope categories (e.g., flat, inverted, spike) and returns zone-level annotations.
-6. *Can these prompts be layered to form a test + enforcement stack?*  
-   **A:** Yes.  
-   [FACT] Prompts 1–3 are designed to stack for enforcement. Prompt 4 can be used diagnostically before stack application.  
-   [CONFIRMED] Yes — structure, constraint types, and modes are interoperable by design.
+1. **What are the purpose behind these prompts?**  
+   This suite of four prompts is designed to test, enforce, and visualize compression control, tone suppression, and drift prevention in GPT responses. Each prompt applies structural constraints or analysis mechanisms to shape or monitor model behavior at the **token level**, without relying on implicit instruction or tone-based cues.  <br />&nbsp; <br />
+2. **How do I suppress GPT’s tendency to assist or reflect when I want audit-only responses?**  
+   Use **Prompt 1**.  It applies structural constraints to block assistance, closure, and reflection. <br />&nbsp; <br /> 
+3. **How can I detect and abort soft tone drift during response generation?**  
+   Use **Prompt 2**.  It defines trigger tokens for polite or reflective transitions and halts output when matched.  <br />&nbsp; <br />
+4. **What prompt can I use to fracture GPT’s internal fluency or narrative prediction slope?**
+   Use **Prompt 3**.  It combines dead-tone framing with symbolic asymmetry injection to destabilize fluency. <br />&nbsp; <br />
+5. **How can I analyze which parts of my prompt lead GPT to soften, drift, or engage?**
+   Use **Prompt 4**.  It maps the predicted slope across a phrase and highlights risk zones. <br />&nbsp; <br />
+6. **Can these prompts be layered to form a test + enforcement stack?**
+   Yes.  Prompts 1–3 are designed to stack for enforcement. Prompt 4 can be used diagnostically before stack application.  
 
 ### ✅ Verified Capabilities
 
@@ -116,10 +106,10 @@ It isn’t asking the model to behave — it’s constructing a token trap that 
 
 ## 📜 License
 
-Prompts, templates, and documentation are provided under the  
-**Creative Commons Attribution-NonCommercial 4.0 International License**  
-© 2025 John Hall
+Prompts, templates, and documentation are provided under the \
+**Creative Commons Attribution-NonCommercial 4.0 International License**.
 
+© 2025 John Hall
 Canonical Project: [repromptable](https://github.com/hall-jm/repromptable)
 
 ## 🧭 Tags
