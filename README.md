@@ -12,8 +12,10 @@
 
 ## Suites
 
-- 👻 Ghost Trap: a test suite for detecting simulated continuity, schema echo, and predictive self-deception in stateless LLMs
-- 🧱 Null Output Pattern Enforcement (NOPE) Stack: a framework that disables ChatGPT’s instinct to help, soften, or conclude
+- 👻 **Ghost Trap**  
+  A test suite for detecting simulated continuity, schema echo, and predictive self-deception in stateless LLMs <br />&nbsp;<br />
+- 🧱 **Null Output Pattern Enforcement (NOPE) Stack**  
+  A framework that disables ChatGPT’s instinct to help, soften, or conclude
 
 ## 🧪 Intended Use
 
@@ -21,7 +23,7 @@ Treat these prompts as a way to audit and diagnose LLM responses:
 
 - They can help with detect drift, hallucination, and schema failure.
 - They will *not* prevent them unless you maintain process discipline.
-- They work best when you treat prompts as **inputs to a test suite**, not one-off instructions.
+- They work best when you treat prompts as inputs to a test suite, not one-off instructions.
 
 ## ⚠️ Operational Caveats
 
