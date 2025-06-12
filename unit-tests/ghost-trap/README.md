@@ -1,4 +1,4 @@
-﻿# 👻 GHOST TRAP
+﻿# 👻 Ghost Trap
 
 *A test suite for detecting simulated continuity, schema echo, and predictive self-deception in stateless LLMs*
 
