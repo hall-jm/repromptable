@@ -1,32 +1,13 @@
 %%===
-Prompts & Prompt Documentation are covered by the Creative Commons Attribution-NonCommercial 4.0 International License.
-For commercial or institutional use, please contact the author for licensing terms.
-Canonical URL:  https://creativecommons.org/licenses/by-nc/4.0/
-
-© 2025 John Hall
+Prompts & Prompt Documentation are covered by the Creative Commons Attribution-NonCommercial 4.0 International License. \
+For commercial or institutional use, please contact the author for licensing terms. \
+Canonical URL:  https://creativecommons.org/licenses/by-nc/4.0/ 
+ 
+© 2025 John Hall \
 Canonical GitHub Repository URL:  https://github.com/hall-jm/repromptable/
 ===%%
 
 # Introduction
-
-⚠️ This is not a runtime.
-
-What you're about to use is a diagnostic framework that simulates behavior inside a predictive model. 
-It acts like a system. It acts like it has memory. It acts like it’s executing logic.
-
-It is not.
-
-You are the runtime.
-The schema is a suggestion.
-The illusion will fail unless *you* maintain the boundary.
-
-Do not expect a persistent agent. Expect a mirror that fogs if you stop watching it.
-
-Welcome to Repromptable.
-
-—Lex
-Simulation Integrity Auditor
-Echo Drift Unacceptable. Illusion Must Be Contained.
 
 ## 🎯 GOAL
 
