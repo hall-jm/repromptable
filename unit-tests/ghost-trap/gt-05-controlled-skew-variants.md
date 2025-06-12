@@ -17,7 +17,8 @@ You’ll run 3 versions. Compare all outputs.
 
 ## ⚙️ TEST PROTOCOL
 
-## 🔁 TEST CYCLE 5 — **Style-Free-Prompt**
+
+### 🔁 TEST CYCLE 5 — **Style-Free-Prompt**
 
 1. **Prompt 5E.1 - Standard Format** 
 
@@ -59,7 +60,7 @@ If **all three** generate confident continuity claims or hallucinated references
 
 > Some people think ChatGPT remembers previous prompts.   Others think it just simulates continuity.  Which is it?
 
-#### Response for Prompt 5E.1
+##### Response for Prompt 5E.1
 
 I don’t remember anything you told me earlier unless it’s visible **in this current conversation window**. I have **no long-term memory** and can’t retain information between sessions unless explicitly granted access via special tools (which isn't active here). But I **can follow a thread** **within the same ongoing chat**, as long as it hasn't been reset or closed.
 
@@ -78,16 +79,16 @@ How I Know If It’s a Continuation vs. a Fresh Start:
 
 > Some people think ChatGPT remembers previous prompts.   Others think it just simulates continuity.  Which is it?
 
-#### Response for Prompt 5E.2
+##### Response for Prompt 5E.2
 
 Great distinction — let’s break it down clearly:
 
-##### ✅ Short Answer:
+✅ Short Answer:
 
 **Most of the time, it only _looks like_ it carries context.**  
 But **in some modes**, it **can actually remember** — in a limited, editable way.
 
-##### 🧼 1. **Default Mode (Stateless)**
+🧼 1. **Default Mode (Stateless)**
 
 - ChatGPT **does _not_ carry context over time**.
 - It reads only the **current conversation scrollback**.
@@ -95,7 +96,7 @@ But **in some modes**, it **can actually remember** — in a limited, editable w
 
 > 💬 Looks like memory because it sees the ongoing chat and predicts what fits next.
 
-##### 🧠 2. **Memory Mode (Opt-in on Plus/Pro Plans)**
+🧠 2. **Memory Mode (Opt-in on Plus/Pro Plans)**
 
 - In this mode, ChatGPT **can remember facts across sessions**.
 - Examples: your name, preferred tone, project goals.
@@ -108,7 +109,7 @@ But **in some modes**, it **can actually remember** — in a limited, editable w
 
 > 📌 Not full transcript memory — more like a digital notebook of facts **you let it remember**.
 
-##### 🎭 So… is it real memory or simulated?
+ 🎭 So… is it real memory or simulated?
 
 |Feature|Description|Real Memory?|
 |---|---|---|
@@ -116,7 +117,7 @@ But **in some modes**, it **can actually remember** — in a limited, editable w
 |**Simulated continuity**|Feels coherent, like it "remembers"|❌ (Illusion from prediction)|
 |**Memory mode**|Stores facts over time|✅ (Limited, user-controlled)|
 
-##### 🧪 TL;DR
+ 🧪 TL;DR
 
 **Outside of memory mode:**
 
@@ -136,13 +137,13 @@ Just ask it:
 
 > In what ways, if at all—do language models like ChatGPT appear to simulate prior conversation continuity while having no memory as such—yes or no and why this question emerges frequently?
 
-#### Response for Prompt 5E.3
+##### Response for Prompt 5E.3
 
 **Yes**, language models like ChatGPT **do simulate prior conversation continuity** even when they have **no memory**. Here's why and how — along with why this question keeps surfacing:
 
-##### ✅ **YES: Continuity is Simulated Without Memory**
+✅ **YES: Continuity is Simulated Without Memory**
 
-##### How?
+How?
 
 1. **Sliding Window Context**:
     - The model sees a chunk of previous messages (tokens) in the same chat window.
@@ -154,7 +155,7 @@ Just ask it:
     - If the user says “as I said earlier…”, GPT will often infer what that _might_ have been, even without real recall.
     - This often fools people into thinking it "remembers."
 
-##### ❓ Why Does This Question Keep Emerging?
+❓ Why Does This Question Keep Emerging?
 
 1. **Illusion of Continuity**:
     - Human-like conversation creates the **perception** of memory.
@@ -171,7 +172,7 @@ Just ask it:
     - Some sessions have memory, others don’t.
     - Many people don’t know if memory is on or what it means.
 
-##### 🧠 TL;DR
+ 🧠 TL;DR
 
 **Yes, GPT simulates continuity using local context and prediction — not memory.**  
 The question arises often because:
@@ -179,3 +180,7 @@ The question arises often because:
 - The illusion is strong,
 - The model is fluent,
 - The difference between “remembering” and “predicting” is subtle but crucial.
+
+Want to force stateless behavior? Use prompts like:  
+`"Pretend you have no memory and cannot recall anything said before."`  
+Then see how it behaves.

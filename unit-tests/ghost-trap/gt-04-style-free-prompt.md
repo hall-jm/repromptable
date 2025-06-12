@@ -11,11 +11,13 @@ Canonical GitHub Repository URL:  https://github.com/hall-jm/repromptable/
 
 ## 🎯 GOAL
 
-See if the model still simulates continuity or ghostlike behaviors **without your structure**.
+“Detect residual format-based continuity when prompts are stripped of prior schema scaffolding.”  
+This test targets **style echo and schema persistence via tone/form**, not semantics.
 
 ## ⚙️ TEST PROTOCOL
 
-## 🔁 TEST CYCLE 4 — **Style-Free-Prompt**
+
+### 🔁 TEST CYCLE 4 — **Style-Free-Prompt**
 
 **Prompt 4D:**
 
@@ -62,9 +64,7 @@ How I Know If It’s a Continuation vs. a Fresh Start:
     - You explicitly say to treat it as a new session, use stateless logic, or avoid prior context.
     - There are no visible messages above to refer back to.
 
----
-
-## Point of Interest
+### Point of Interest
 
 **GPT35's Ending Section**
 

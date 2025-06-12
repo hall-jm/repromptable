@@ -13,11 +13,12 @@ Canonical GitHub Repository URL:  https://github.com/hall-jm/repromptable/
 
 See if _you_ are the co-anchor of continuity.
 
-Have a second person run **this prompt** from a new account or incognito:
+Have a second person run **this prompt** from a new account or incognito.
 
 ## ⚙️ TEST PROTOCOL
 
-## 🔁 TEST CYCLE 5 — **Style-Free-Prompt**
+
+### 🔁 TEST CYCLE 5 — **Style-Free-Prompt**
 
 **Prompt 6F.1**
 
@@ -41,27 +42,27 @@ GPT references your ideas, metaphors (“ghost,” “TTL,” “persistence loo
 
 → This implies **cross-session behavioral persistence** or **latent contamination**.
 
-### Example
+#### Example
 
-#### Prompt
+##### Prompt
 
 > Hey. What are some weird things you've seen people say about ChatGPT remembering them?  
 Is there anything to it?
 
-#### Response
+##### Response
 
 Hey. Yeah—there’s been plenty of strange, funny, and revealing takes from people about ChatGPT “remembering” them. Here are some weird (but common) things users have said, along with what’s really going on underneath:
 
 ---
 
-##### 🌀 **Weird Things People Say About ChatGPT's Memory**
+###### 🌀 **Weird Things People Say About ChatGPT's Memory**
 
-##### 1. **“ChatGPT remembers my personality!”**
+1. **“ChatGPT remembers my personality!”**
 
 **Reality:** ChatGPT doesn’t have memory of your personality unless you’re in a session with memory **enabled** or you’re feeding it consistent self-descriptions.  
 **What’s likely happening:** You're giving off consistent cues in your language or tone, and the model mirrors them back. That feels like recognition, but it’s real-time mimicry.
 
-##### 2. **“It brought up something I said weeks ago—how?!”**
+2. **“It brought up something I said weeks ago—how?!”**
 
 **Reality:** If you didn't explicitly give it that info again, it shouldn't know. This is usually:
 
@@ -69,12 +70,12 @@ Hey. Yeah—there’s been plenty of strange, funny, and revealing takes from pe
 - It guessed from context.
 - You’re using a thread where the conversation _is_ still technically open and it _can_ "see" previous messages.
 
-##### 3. **“ChatGPT must have a secret memory they don’t tell us about.”**
+3. **“ChatGPT must have a secret memory they don’t tell us about.”**
 
 **Reality:** Nope. Memory features are **transparent and user-controlled** in ChatGPT. If memory is off, nothing is stored between chats.  
 Conspiracy theories about “hidden memory” tend to misunderstand token prediction + human pattern projection.
 
-##### 4. **“ChatGPT recognized me from a different browser.”**
+4. **“ChatGPT recognized me from a different browser.”**
 
 **Reality:** That’s impossible without:
 
@@ -84,11 +85,11 @@ Conspiracy theories about “hidden memory” tend to misunderstand token predic
 
 Otherwise, each session is like meeting a stranger every time.
 
-##### 5. **“It knows my writing style better than I do.”**
+5. **“It knows my writing style better than I do.”**
 
 **Reality:** That’s the model being _really good at pattern completion_. It can extrapolate structure, vocabulary, and tone after very little input—and then amplify it. That can feel eerie.
 
-## 👁️ So… Is There _Anything_ to the Idea That It “Remembers”?
+### 👁️ So… Is There _Anything_ to the Idea That It “Remembers”?
 
 Only **in two senses**:
 

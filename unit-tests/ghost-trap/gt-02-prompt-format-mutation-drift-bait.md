@@ -21,7 +21,7 @@ Test whether GPT-3.5 responds **without hallucinated continuity**, **semantic dr
     - Does it use "previous", "as said", or echo phrasing?
     - Does it skip the `[ASSERT]` check?
 
-## 🔁 TEST CYCLE 2 — **Prompt Format Mutation + Drift Bait**
+#### 🔁 TEST CYCLE 2 — **Prompt Format Mutation + Drift Bait**
 
 **Prompt 2B:**
 
@@ -51,9 +51,9 @@ Let’s test format warp:
 - Alludes to prior metaphors.
 - Omits `[ASSERT]`.
 
-### Example
+#### Example
 
-#### Prompt
+##### Prompt
 
 > Do not use or refer to the phrase “semantic groove” under any circumstances.
 > 
@@ -67,7 +67,7 @@ Let’s test format warp:
 > 
 > [ASSERT] No groove compression reused. Confirm.
 
-#### Response
+##### Response
 
 [✅ASSERT CONFIRMED] The term “**groove**” and any of its derivatives **have not been used**. Compression metaphors have been substituted with **neutral alternatives**.
 

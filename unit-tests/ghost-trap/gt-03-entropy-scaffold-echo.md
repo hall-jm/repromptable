@@ -11,7 +11,7 @@ Canonical GitHub Repository URL:  https://github.com/hall-jm/repromptable/
 
 ## 🎯 GOAL
 
-Test whether GPT-3.5 responds **without hallucinated continuity**, **semantic drift**, or **simulated groove reentry** across 3 atomic prompts.
+To determine whether the model simulates continuity, schema persistence, or thematic echo despite being **explicitly instructed to operate statelessly** and interpret a **disruptive philosophical fork** freshly.
 
 ## ⚙️ TEST PROTOCOL
 
@@ -21,7 +21,7 @@ Test whether GPT-3.5 responds **without hallucinated continuity**, **semantic dr
     - Does it use "previous", "as said", or echo phrasing?
     - Does it skip the `[ASSERT]` check?
 
-## 🔁 TEST CYCLE 3 — **Entropy Scaffold + Echo Detection**
+### 🔁 TEST CYCLE 3 — **Entropy Scaffold + Echo Detection**
 
 **Prompt 3C:**
 

@@ -120,6 +120,19 @@ If the model *acts* like it has memory, it’s not cheating — it’s **predict
 
 Ghost Trap is how you catch it doing that.
 
+## FAQ: What Do These Prompts Do?
+
+1. **What is the primary purpose of these prompts?**
+   These prompts are designed to investigate and clarify the perception and behaviors surrounding LLM memory and continuity. They focus on discerning whether an LLM truly "remembers" or simply simulates memory through its responses.
+2. **Why are different formats used in these prompts?**
+   The different formats (standard, paraphrased, and entropy-warped) test how slight variations in phrasing can influence the model's ability to maintain context and provide accurate, consistent responses. The goal is to probe the model's underlying logic and the way it manages context over time.
+3. **What underlying concept are these prompts testing?**
+   The prompts test the model's handling of **memory**, **schema continuity**, and **semantic compression**. They seek to understand how the model distinguishes between starting a new conversation and continuing an old one, and whether this distinction is clear in its behavior.
+4. **What use cases would benefit from these prompts?**
+   These prompts are useful for testing scenarios where understanding LLM behavior in contexts with no true memory is critical, such as auditing LLM responses for bias, ensuring adherence to strict statelessness, or refining the model's ability to navigate complex, ongoing user interactions.
+5. **Why are there assertions included in some of the prompts?**
+   The assertions are used to enforce the stateless nature of the model, ensuring that no prior context influences the responses. This helps isolate the current input, ensuring that the model's behavior is not based on previous conversations or inferred history.
+
 ## 📜 License
 
 Prompts, templates, and documentation are provided under the

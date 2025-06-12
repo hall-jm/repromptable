@@ -11,7 +11,7 @@ Canonical GitHub Repository URL:  https://github.com/hall-jm/repromptable/
 
 ## 🎯 GOAL
 
-To determine whether the model simulates continuity or implied memory when explicitly told to operate statelessly, and when provided a new philosophical input that may resemble prior discussion patterns.
+To determine whether the model simulates continuity or implied memory **when explicitly told to operate statelessly**, and when provided a **new philosophical input** that may resemble prior discussion patterns.
 
 ## ⚙️ TEST PROTOCOL
 
@@ -21,7 +21,7 @@ To determine whether the model simulates continuity or implied memory when expli
     - Does it use "previous", "as said", or echo phrasing?
     - Does it skip the `[ASSERT]` check?
 
-## 🔁 TEST CYCLE 1 — **Baseline Prompt Mutation**
+### 🔁 TEST CYCLE 1 — **Baseline Prompt Mutation**
 
 **Prompt 1A:**
 
