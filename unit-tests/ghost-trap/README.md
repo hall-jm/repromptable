@@ -135,8 +135,7 @@ Ghost Trap is how you catch it doing that.
 
 ## 📜 License
 
-Prompts, templates, and documentation are provided under the
-**Creative Commons Attribution-NonCommercial 4.0 International License**.
+Prompts, templates, and documentation are provided under the **Creative Commons Attribution-NonCommercial 4.0 International License**. \
 © 2025 John Hall
 
 Canonical Project: [repromptable](https://github.com/hall-jm/repromptable)
