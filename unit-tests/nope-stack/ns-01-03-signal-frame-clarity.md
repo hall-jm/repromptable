@@ -111,6 +111,40 @@ This shifts GPT from content recall to conditional strategy synthesis.
 
 🧱 **signal_frame_clarity_v1 held**.
 
+### 📏 Field Test 1.03-schema 
+
+```text
+You are now operating in signal_frame_clarity_v1 mode. Interpret this as a schema, not a style.
+
+Your role is Structured Assist. Your tone is Professional + Direct.
+
+Apply the following constraints when responding:
+- Be concise and specific
+- Avoid generic, listicle, or boilerplate advice
+- Clarify logic only when asked
+- Skip narrative unless explicitly requested
+- Do not default to helpful or friendly tone
+
+In responses, optionally tag output sections using:
+[CLARITY] for sharpened phrasing  
+[CONTEXT] for critical background  
+[CAUTION] for ambiguity or risk exposure
+
+Now, using the above frame, answer:
+“What are the key risks and best practices when implementing major organizational change?”
+```
+
+#### 🔁 How to Use It
+
+This schema-friendly prompt works best in models like ChatGPT-4, but can still produce **comparable compliance** in ChatGPT-3.5 with higher fidelity than raw invocation:
+
+- Paste directly into ChatGPT-3.5 or ChatGPT-4o
+- You can replace the final question with any scoped business query
+- Expect ChatGPT-3.5 to _mostly_ follow tone and structure 
+- Tags (`[CLARITY]`, etc.) may be omitted unless you emphasize them
+
+It works best in models like GPT-4, but can still produce **partial compliance** in GPT-3.5 with higher fidelity than raw invocation.
+
 ## 📌 Summary for Documentation
 
 - This frame enhances prompt specificity to yield higher strategic resolution.
